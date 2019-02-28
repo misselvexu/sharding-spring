@@ -45,7 +45,7 @@ public final class TestShardingEncryptor implements ShardingEncryptor {
     }
     
     @Override
-    public String decrypt(final Object ciphertext) {
+    public Object decrypt(String ciphertext) {
         return "";
     }
 }
